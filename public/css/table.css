@@ -1,0 +1,89 @@
+.page-table-box table {
+  width: 100%;
+}
+
+.page-table-box table th {
+  background-color: #F6FAFF;
+  padding: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.8px;
+  letter-spacing: -0.12px;
+  color: #455356;
+
+  position: sticky;
+  top: 0;
+}
+
+.page-table-box table td {
+  font-size: 14px;
+  padding: 12px;
+  font-weight: 500;
+  line-height: 19.6px;
+  letter-spacing: -0.28px;
+  color: #617275;
+  border-bottom: 1px solid #E7EBEC;
+}
+
+.page-table-box table tr:hover td {
+  box-shadow: 0px 10px 24px -16px rgba(153, 130, 1, 0.5) inset;
+}
+
+.page-table-box table td:first-child {
+  font-weight: 700;
+}
+
+td a.bg_green_txt {
+  padding: 2px 8px;
+  text-align: center;
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.048px;
+  background-color: #E3F9E1;
+  border-radius: 30px;
+  color: #247D58;
+}
+
+td a.bg_red_txt {
+  padding: 2px 8px;
+  text-align: center;
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.048px;
+  background-color: #FFEEDB;
+  border-radius: 30px;
+  color: #9A6600;
+}
+
+th.w130 {
+  width: 130px;
+}
+
+th.w120 {
+  width: 120px;
+}
+
+th.w100 {
+  width: 100px;
+}
+
+.page-table-box {
+  height: calc(100vh - 280px);
+  overflow-y: auto;
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+  .page-table-box {
+    height: calc(100vh - 310px);
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:979px) {
+  .page-table-box {
+    height: calc(100vh - 350px);
+  }
+}

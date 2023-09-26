@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif !important;
+  font-weight: 400;
+  background: #005E77;
+  padding: 8px;
+}
+
+#sidebar.left-bar {
+  min-width: 80px;
+  max-width: 80px;
+  background: #0F7691;
+  border-radius: 20px;
+}
+
+#sidebar.left-bar ul li a {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16.8px;
+  letter-spacing: -0.12px;
+  text-align: center;
+  color: #fff;
+  padding: 12px 4px;
+  border: none;
+  margin-bottom: 12px;
+}
+
+.left-bar .dropdown-toggle::after {
+  opacity: 0;
+}
+
+.main_logo {
+  display: block;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.left-menu-box h1 {
+  margin: 0 !important;
+}
+
+.left-bar #sidebarCollapse {
+  opacity: 0;
+}
+
+.right-bar {
+  border-radius: 30px;
+  background: #fff !important;
+  padding: 20px !important;
+  margin-left: 8px;
+}
+
+#sidebar.left-bar ul li a span {
+  display: block;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+#sidebar.left-bar ul.components {
+  padding: 0 5px;
+}
+
+#sidebar.left-bar ul li a:hover,
+#sidebar.left-bar ul li a[aria-expanded="true"],
+#sidebar.left-bar ul ul li a.active {
+  background-color: #3EA2BD;
+  border-radius: 12px;
+}
+
+#sidebar.left-bar ul li {
+  position: relative;
+}
+
+#sidebar.left-bar ul ul {
+  border-radius: 20px;
+  position: absolute;
+  right: -202px;
+  background: #0F7691;
+  top: -10px;
+  width: 180px;
+  padding: 12px;
+  z-index: 9;
+}
+
+#sidebar.left-bar ul ul li a {
+  margin-bottom: 0;
+  text-align: left;
+  padding: 12px;
+}
+
+#sidebar.left-bar ul ul::after {
+  content: '';
+  background-image: url(../images/Polygon.svg);
+  background-repeat: no-repeat;
+  width: 8px;
+  height: 14px;
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: -7px;
+}
+
+.right-side-header h2 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 25.2px;
+  letter-spacing: -0.36px;
+  color: #222D2F;
+  margin: 0 10px 0 20px;
+}
+
+.tit_point {
+  padding: 4px 12px;
+  background-color: #E7EBEC;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16.8px;
+  letter-spacing: -0.12px;
+  color: #617275;
+  border-radius: 80px;
+}
+
+.breadcum ul {
+  margin: 0;
+  padding: 0;
+}
+
+.breadcum ul li {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.8px;
+  letter-spacing: -0.12px;
+  color: #FF5700;
+  list-style-type: none;
+  display: inline-block;
+  padding: 4px 0px 4px 4px;
+}
+
+.breadcum ul li a {
+  font-weight: 500;
+  color: #617275;
+}
+
+.breadcum ul li span {
+  margin: 0 8px;
+  display: inline-block;
+  color: #DBE1E3;
+}
+
+.right-side-header {
+  border-bottom: 1px solid #E7EBEC;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.basic-button {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 23.8px;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+  padding: 16px 20px;
+  text-align: center;
+  background: linear-gradient(89deg, #FF5700 4.28%, #FF9057 94.58%);
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+}
+
+.basic-button img {
+  position: relative;
+  top: -1px;
+}
+
+.status-box a {
+  display: inline-block;
+  border-radius: 100px;
+  border: 1px solid #E7EBEC;
+  padding: 12px;
+  text-align: center;
+  color: #617275;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19.6px;
+  letter-spacing: -0.28px;
+  margin-right: 12px;
+}
+
+.status-box a:last-child {
+  margin-right: 0;
+}
+
+.status-box a:hover,
+.status-box a.active {
+  background: #FFF4ED;
+  border: 1px solid #FFD5C0;
+  color: #FF5700;
+}
+
+.search_box input {
+  border-radius: 10px;
+  border: 1px solid #DBE1E3;
+  padding: 12px 32px 12px 12px !important;
+  background-color: #F7F9F9;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  padding: 12px;
+  width: 220px;
+  background-image: url(../images/Search.svg);
+  background-repeat: no-repeat;
+  background-position: 95%;
+}
+
+.search_box input:focus {
+  outline: none;
+}
+
+.pb-32 {
+  padding-bottom: 32px;
+}
+
+div#content.right-bar {
+  height: calc(100vh - 16px);
+  min-height: auto;
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1279px) {}
+
+@media screen and (min-width:768px) and (max-width:979px) {
+  .right-bar {
+    width: calc(100% - 90px) !important;
+  }
+
+  #sidebar.left-bar {
+    margin-left: 0;
+  }
+}
